@@ -28,7 +28,7 @@ public class Resource {
         try {
             BASE_FONT_CHINESE = BaseFont.createFont("STSongStd-Light", "UniGB-UCS2-H", BaseFont.NOT_EMBEDDED);
             // 搜尋系統,載入系統內的字型(慢)
-            FontFactory.registerDirectories();
+//            FontFactory.registerDirectories();
         } catch (Exception e) {
             e.printStackTrace();
         }
